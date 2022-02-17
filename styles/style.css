@@ -6,7 +6,7 @@ body{
 .main{
   display: flex;
   flex-direction: row-reverse;
-  width: 1080px;
+  width: 1075px;
   height: 1419px;
   left: 40px;
   top: 40px;
