@@ -1,116 +1,175 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta charset="utf-8">
-<title>Katya Uvarova</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/style.css">
+  <title>Resume</title>
   <style>
-   hr {
-    border: none; /* Убираем границу */
-    background-color: red; /* Цвет линии */
-    color: red; /* Цвет линии для IE6-7 */
-    height: 2px; /* Толщина линии */
+    a {
+     text-decoration: none; 
+    }
+    a:hover {
+    text-decoration: underline;
    }
-  </style>
+   </style>
 </head>
 <body>
-  <table>
-    <tr>
-      <th>
-<img 
-src="tipa_ya.jpg" 
-alt="Shoto na lenivom"
-vspace=10px
-height=400px
-title=-__-
->
-    </th>
-      <th>
-<h1>Katya Uvarova</h1>
-<p>This is my <b>first website ever</b> </p>
-<p>I like to <i>enrages all <b>Vlad</b> which i know</i> </p>
-    </th>
-    </tr>
-  </table>
-<hr>
 
-<h2><b>My social networks</b></h2>
+   <!--Main-->
+<div class="main">   
 
+    <!--Main content-->
+    <div class="mainContent">   
+        <!--About user-->
+        <div class="aboutUser">
+            <h2 class="about-position">Front-End Developer </h2>
+            <h1 class="my-name"> Vladyslav Bosenko </h1>
+            <p class="some-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.  
+            </p> 
+        </div>
 
-<li><a href=https://www.instagram.com/ekaterinavirland target=_blank>Instagram</a></li>
-<li><a href=https://www.facebook.com/profile.php?id=100067901955665     target=_blank     >Facebook</a></li>
+        <!--Projects-->
+        <div class="projects">
+            <h3 class="main-title">Projects</h3>
+            <ol class="project-list">
+                <li class="project-li"><a  href="https://hellenglish.goit.global/"target=_blank >
+                    <span class="project-full">
+                      https://hellenglish.goit.global/
+                      <span class="project-dots"> _ _ _ _ _ __ _ _ _ _</span> 
+                      <span class="project-bracket">[</span> HTML5, CSS3<span class="project-bracket">]</span>
+                    </span> 
+                  </a> </li>
+                <li class="project-li"><a href="https://cryptohub.goit.global/"target=_blank>
+                  <span class="project-full">
+                    https://cryptohub.goit.global/  
+                    <span class="project-dots">_ _ _ _ _ _ _ _ _ _ _</span> 
+                    <span class="project-bracket">[</span>JavaScript<span class="project-bracket">]</span>
+                  </span> 
+                  </a> </li>
+                <li class="project-li"><a href="https://kidslike.goit.global/"target=_blank>
+                  <span class="project-full">
+                    https://kidslike.goit.global/ 
+                    <span class="project-dots">_ _ _ _ _ _ _ _ _ _ _ _ _</span> 
+                    <span class="project-bracket">[</span>React.js, Node.js<span class="project-bracket">]</span>
+                  </span> 
+                </a></li>
+            </ol>
+        </div>
+        
+        <!--Work-->
+        <div  class="work">
+            <h3 class="main-title">Work Experience</h3>
+            <!--First work-->
+            <div>
+                <h4 class="type-work">Front-End Developer <span class="place-work">Freelance</span>  </h4>
+                <p  class="date-work">September 2019 - up to now   |   Country</p>
+                <ul class="work-list">
+                    <li class="work-list"> <span class="work-detail" >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </span> </li>
+                    <li class="work-list"><span class="work-detail" >Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span></li>
+                    <li class="work-list"><span class="work-detail" >Risus commodo viverra maecenas.</span> </li>
+                    <li class="work-list"><span class="work-detail" >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod. </span></li>
+                </ul>
+            </div>
+            
+             <!--Second work-->
+            <div>
+                <h4 class="type-work">Manager <span class="place-work">Roga & Kopyta New</span>  </h4>
+                <p class="date-work">March 2015 - October 2018   |   Country</p>
+                <ul class="work-list">
+                    <li class="work-list"><span class="work-detail" >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod labore et dolore magna aliqua.</span>  </li>
+                    <li class="work-list"><span class="work-detail" >Quis ipsum suspendisse ultrices gravida.</span></li>
+                    <li class="work-list"><span class="work-detail" >Risus commodo viverra maecenas. </span></li>
+                </ul>
+            </div>
 
-<hr>
+             <!--Third work-->
+            <div>
+                <h4 class="type-work">Manager <span class="place-work">Roga & Kopyta LLC</span>  </h4>
+                <p class="date-work">June 2014 - February 2015   |   Country</p>
+                <ul class="work-list">
+                    <li class="work-list"> <span class="work-detail" >
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    </span>  </li>
+                    <li class="work-list"> <span class="work-detail" >
+                      Quis ipsum suspendisse ultrices gravida.
+                    </span>  </li>
+                    <li class="work-list"> <span class="work-detail" >
+                      Risus commodo viverra maecenas.
+                    </span>  </li>
+                </ul>
+            </div>
 
-<h2><b>My hobbies </b></h2>
+        </div>
 
-<ol>
-    <li>Public activism</li>
-    <li>Greek language and culture</li>
-    <li>enrages all <b>Vlad</b> which i know</li>
-   </ol>
-
-<hr>
-
-<h2><b>Contact me </b></h2>
-<a href=https://t.me/ekaterinavirlands>Link to telegram</a>
-
-  <hr>
-  
-  <table>
+        <!--Education-->
+        <div  class="education">
+            <h3 class="main-title">Education</h3>
+            <h4 class="university">National Technical University of Ukraine “Igor Sikorsky Kyiv Polytechnic Institute”</h4>
+            <h5 class="specialty">Applied Mechanics </h5>
+            <p class="ed-info">September 2021 - June 2025   |   Ukraine</p>
+        </div>
+    </div>
     
-   <thead> 
-    <tr>
-      
-      <th rowspan="2">
-        Name
-      </td>
-      
-      <th rowspan="2">
-        Class
-      </td>
-      
-      <th rowspan="2">
-        Age
-      </td>
-      
-    </tr>
-    </thead>
-    
-    <tr>
-      
-      <td>
-        Katya
-      </td>
-      
-      <td>
-        7
-      </td>
-      
-      <td>
-        12
-      </td>
-      
-    </tr>
-    
-    
-    <tr>
-      
-      <td>
-        Alyona
-      </td>
-      
-      <td>
-        8
-      </td>
-      
-      <td>
-        13
-      </td>
-      
-    </tr>
-    
-    
-    
-    </table>
+    <!--Sidebar-->
+    <aside class="sidebar">   
+        <!--Photo-->
+        <div  >
+            <img src="https://scontent.fiev21-2.fna.fbcdn.net/v/t1.6435-9/67570397_510145259732985_4599166562421702656_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=Po6gDTeSqRIAX-Mpmps&_nc_ht=scontent.fiev21-2.fna&oh=00_AT-g7uM4Bhun18yYDOAqXlr1pNtvgMkYjey40JS9eImJaQ&oe=622E4979" alt="My photo" class="photo">
+            
+        </div>
+
+        <!--Contacts-->
+        <div  class="sidebarContacts">
+            <h3 class="sidebar-title">Contacts</h3>
+
+            <!--Type contact-->
+            <div>
+                <p> <span class="contactLetter">C:</span>
+                   <a class="contactHref" href="tel:+380687004485">  +380687004485</a>
+                  <br>
+                   <span class="contactLetter">E:</span>
+                  <a class="contactHref" href="mailto:bosenko2288@gmail.com">  bosenko2288@gmail.com </a></p>
+            </div>
+
+        </div>
+
+        <!--Tech skills-->
+        <div  class="techSkills">
+            <h3 class="sidebar-title">Tech skills</h3>
+            <ul class="tech-skills-list">
+                <li> <span class="tech-list-text">HTML5</span> </li>
+                <li> <span class="tech-list-text">CSS3</span> </li>
+                <li> <span class="tech-list-text">GIT</span> </li>
+                <li> <span class="tech-list-text">WebPack</span> </li>
+                <li> <span class="tech-list-text">JavaScript</span> </li>
+                <li> <span class="tech-list-text">React.js</span> </li>
+                <li> <span class="tech-list-text">Node.js</span> </li>
+            </ul>
+
+        </div>
+
+         <!--Soft skills-->
+         <div class="softSkills">
+            <h3 class="sidebar-title">Soft skills</h3>
+            <ul class="soft-skills-list">
+              <li> <span class="soft-list-text">Communication</span> </li>
+              <li> <span class="soft-list-text">Collaboration and teamwork</span> </li>
+              <li> <span class="soft-list-text">Time management and organization</span> </li>
+              <li> <span class="soft-list-text">Emotional intelligence</span> </li>
+              <li> <span class="soft-list-text">Owning up to errors</span> </li>
+              <li> <span class="soft-list-text">Problem solving and creativity</span> </li>
+              <li> <span class="soft-list-text">People skills and management</span> </li>
+          </ul>
+
+        </div>
+    </aside>
+
+</div>
+
 </body>
 </html>
